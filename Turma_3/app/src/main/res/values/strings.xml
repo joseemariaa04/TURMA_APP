@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Turma</string>
+
+    <string name="home_titulo">Turma</string>
+
+    <string name="proyectos_titulo">Proyectos</string>
+    <string name="accion_añadir_proyecto">Añadir proyecto</string>
+
+    <string name="detalle_info_titulo">Detalle del proyecto</string>
+    <string name="campo_area">Área</string>
+    <string name="campo_objetivo">Objetivo</string>
+    <string name="etiqueta_id">Id:</string>
+    <string name="accion_guardar">Guardar</string>
+
+    <string name="detalle_tareas_titulo">Tareas</string>
+    <string name="accion_añadir_tarea">Añadir tarea</string>
+    <string name="dialogo_nueva_tarea_titulo">Nueva tarea</string>
+    <string name="dialogo_nueva_tarea_pista">Nombre de la tarea</string>
+    <string name="accion_cancelar">Cancelar</string>
+    <string name="accion_añadir">Añadir</string>
+</resources>
