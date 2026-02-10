@@ -1,4 +1,4 @@
-# 📱 TaskFlow Android
+# 📱 TURMA Android
 
 <div align="center">
 
@@ -32,14 +32,7 @@ TaskFlow es una aplicación Android moderna que permite crear y gestionar proyec
 - 🌙 **Modo Oscuro** - Soporte para tema claro y oscuro
 - 🚀 **Rendimiento Optimizado** - Arquitectura MVVM con Coroutines
 
-## 📸 Capturas de Pantalla
 
-<div align="center">
-  <img src="screenshots/projects_list.png" width="200" alt="Lista de Proyectos"/>
-  <img src="screenshots/project_detail.png" width="200" alt="Detalle del Proyecto"/>
-  <img src="screenshots/task_creation.png" width="200" alt="Crear Tarea"/>
-  <img src="screenshots/tasks_list.png" width="200" alt="Lista de Tareas"/>
-</div>
 
 ## 🛠️ Stack Tecnológico
 
@@ -54,13 +47,6 @@ TaskFlow es una aplicación Android moderna que permite crear y gestionar proyec
 | **Serialización** | Gson / Moshi |
 | **Backend** | MockAPI |
 
-## 📋 Requisitos
-
-- Android Studio Hedgehog | 2023.1.1 o superior
-- JDK 17
-- Android SDK 24 (Android 7.0) o superior
-- Gradle 8.0+
-- Conexión a Internet
 
 ## 🚀 Instalación
 
@@ -76,29 +62,6 @@ cd taskflow-android
 2. Crea un nuevo proyecto
 3. Crea los siguientes recursos:
 
-#### Recurso: `projects`
-```json
-{
-  "id": "1",
-  "name": "string",
-  "description": "string",
-  "createdAt": "2024-01-01T00:00:00.000Z",
-  "color": "string"
-}
-```
-
-#### Recurso: `tasks`
-```json
-{
-  "id": "1",
-  "projectId": "string",
-  "title": "string",
-  "description": "string",
-  "completed": false,
-  "priority": "string",
-  "createdAt": "2024-01-01T00:00:00.000Z"
-}
-```
 
 ### 3. Configurar las variables de entorno
 
@@ -146,40 +109,6 @@ Conecta un dispositivo Android o inicia un emulador y presiona **Run** ▶️
 - Desliza el elemento hacia la izquierda
 - O mantén presionado y selecciona **Eliminar**
 
-## 📁 Estructura del Proyecto
-```
-app/
-├── src/main/
-│   ├── java/com/tuempresa/taskflow/
-│   │   ├── data/
-│   │   │   ├── api/
-│   │   │   │   ├── ApiService.kt
-│   │   │   │   └── RetrofitInstance.kt
-│   │   │   ├── model/
-│   │   │   │   ├── Project.kt
-│   │   │   │   └── Task.kt
-│   │   │   └── repository/
-│   │   │       ├── ProjectRepository.kt
-│   │   │       └── TaskRepository.kt
-│   │   ├── di/
-│   │   │   └── AppModule.kt
-│   │   ├── ui/
-│   │   │   ├── projects/
-│   │   │   │   ├── ProjectsViewModel.kt
-│   │   │   │   └── ProjectsFragment.kt
-│   │   │   ├── tasks/
-│   │   │   │   ├── TasksViewModel.kt
-│   │   │   │   └── TasksFragment.kt
-│   │   │   └── MainActivity.kt
-│   │   └── util/
-│   │       ├── Constants.kt
-│   │       └── Extensions.kt
-│   └── res/
-│       ├── layout/
-│       ├── values/
-│       └── drawable/
-└── build.gradle.kts
-```
 
 ## 🔌 API Endpoints
 
@@ -230,19 +159,6 @@ Por favor, asegúrate de:
 - Agregar tests para nuevas funcionalidades
 - Actualizar la documentación si es necesario
 
-## 📝 Roadmap
-
-- [ ] Notificaciones push para tareas
-- [ ] Filtros y búsqueda avanzada
-- [ ] Widget para la pantalla de inicio
-- [ ] Exportar proyectos a PDF
-- [ ] Sincronización offline
-- [ ] Colaboración en tiempo real
-
-## 🐛 Reportar Problemas
-
-Si encuentras algún bug o tienes una sugerencia, por favor abre un [issue](https://github.com/tu-usuario/taskflow-android/issues).
-
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
@@ -258,19 +174,12 @@ in the Software without restriction...
 
 ## 👨‍💻 Autor
 
-**Tu Nombre**
+**José María Martín Fernández**
 
-- 🐙 GitHub: [@tu-usuario](https://github.com/tu-usuario)
+- 🐙 GitHub: [@joseemariaa04](https://github.com/joseemariaa04)
 - 💼 LinkedIn: [Tu Perfil](https://linkedin.com/in/tu-perfil)
-- 📧 Email: tuemail@ejemplo.com
+- 📧 Email: josemariamartin2004@gmail.com
 - 🌐 Portfolio: [tuportfolio.com](https://tuportfolio.com)
-
-## 🙏 Agradecimientos
-
-- [MockAPI](https://mockapi.io) - Por el excelente servicio de API REST
-- [Material Design](https://material.io) - Por las guías de diseño
-- [Android Developers](https://developer.android.com) - Por la documentación
-- La comunidad open source de Android
 
 ---
 
