@@ -1,80 +1,65 @@
-📱 TURMA
+# 📱 TURMA
 
-TURMA es una app de Android para gestionar tus proyectos y tareas en tiempo real. Todo se sincroniza usando MockAPI, así que puedes crear, actualizar y eliminar proyectos y tareas sin complicaciones.
+[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/) 
+[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com/) 
+[![MockAPI](https://img.shields.io/badge/MockAPI-00CFFF?style=for-the-badge)](https://mockapi.io/)
 
-✨ Qué hace
+**TURMA** es una app de Android para gestionar **proyectos y tareas en tiempo real** usando **MockAPI**.  
+Crea, edita y elimina proyectos y tareas de forma rápida y sencilla. 🚀
 
-Proyectos: Crea y organiza tus proyectos de manera sencilla.
+---
 
-Tareas: Añade tareas a tus proyectos, márcalas como hechas o bórralas cuando ya no las necesites.
+## ✨ Características
 
-Sincronización en tiempo real: Todo lo que cambies se guarda automáticamente en MockAPI y se ve al instante.
+- 🗂 **Proyectos:** Crea y organiza tus proyectos fácilmente  
+- ✅ **Tareas:** Añade, completa o elimina tareas  
+- 🌐 **Tiempo real:** Todo se sincroniza automáticamente con MockAPI  
+- 📱 **Interfaz intuitiva:** Navegación rápida y limpia  
 
-Interfaz simple y limpia: Pensada para que navegar por la app sea rápido y fácil.
+---
 
-🛠 Tecnologías usadas
+## 🛠 Tecnologías
 
+```plaintext
 Kotlin / Java
-
-MockAPI para guardar los datos
-
-Arquitectura MVVM
-
-Librerías: Retrofit, Gson, LiveData, RecyclerView
-
-📸 Cómo se ve
-
-(Aquí puedes poner capturas de pantalla de la app, una del listado de proyectos y otra de las tareas dentro de un proyecto)
-
-🚀 Cómo probarla
-
-Clona este repositorio:
-
+MockAPI
+MVVM
+Retrofit, Gson, LiveData, RecyclerView
+🚀 Instalación rápida
 git clone https://github.com/tu-usuario/turma.git
-
-
-Abre el proyecto en Android Studio.
-
-Asegúrate de tener conexión a internet (MockAPI necesita estar activo).
-
-Ejecuta la app en un emulador o en tu celular.
-
+# Abrir en Android Studio
+# Ejecutar en emulador o dispositivo
 🔧 Configuración de MockAPI
+Crea tu proyecto en MockAPI
 
-Ve a MockAPI
- y crea un proyecto.
+Configura endpoints para Proyectos y Tareas
 
-Crea endpoints para Proyectos y Tareas.
-
-Copia la URL base de tu proyecto y reemplázala en la app:
+Reemplaza la URL base en la app:
 
 const val BASE_URL = "https://tu-mockapi-url.mockapi.io/"
+💡 Uso rápido
+Abrir la app
 
-💡 Cómo usar TURMA
+Crear un proyecto 🗂
 
-Abre la app.
+Añadir tareas ✅
 
-Crea un proyecto nuevo.
+Marcar como completadas o eliminar 🗑️
 
-Añade tareas dentro de ese proyecto.
+Todo se guarda y sincroniza automáticamente 🌐
 
-Marca tareas como completadas o bórralas si ya no sirven.
+📸 Capturas
+(Agrega tus imágenes aquí)
 
-Todo se guarda automáticamente y se refleja en tiempo real.
-
+![Lista de Proyectos](ruta/a/imagen1.png)
+![Tareas de Proyecto](ruta/a/imagen2.png)
 🤝 Contribuciones
+Haz un fork 🍴
 
-Si quieres mejorar la app, puedes:
-
-Hacer un fork del repo.
-
-Crear tu rama para cambios:
+Crea una rama para tu feature:
 
 git checkout -b feature/nueva-funcionalidad
-
-
-Hacer commit de tus cambios y enviar un pull request.
+Realiza cambios, commit y PR
 
 📝 Licencia
-
-MIT. Haz lo que quieras con el código, solo menciona al autor 😉
+MIT – Usa el código libremente, solo menciona al autor 😉
