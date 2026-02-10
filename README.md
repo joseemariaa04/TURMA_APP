@@ -37,29 +37,4 @@ Configura endpoints para Proyectos y Tareas
 Reemplaza la URL base en la app:
 
 const val BASE_URL = "https://tu-mockapi-url.mockapi.io/"
-💡 Uso rápido
-Abrir la app
 
-Crear un proyecto 🗂
-
-Añadir tareas ✅
-
-Marcar como completadas o eliminar 🗑️
-
-Todo se guarda y sincroniza automáticamente 🌐
-
-📸 Capturas
-(Agrega tus imágenes aquí)
-
-![Lista de Proyectos](ruta/a/imagen1.png)
-![Tareas de Proyecto](ruta/a/imagen2.png)
-🤝 Contribuciones
-Haz un fork 🍴
-
-Crea una rama para tu feature:
-
-git checkout -b feature/nueva-funcionalidad
-Realiza cambios, commit y PR
-
-📝 Licencia
-MIT – Usa el código libremente, solo menciona al autor 😉
